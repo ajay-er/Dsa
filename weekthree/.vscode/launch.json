@@ -1,0 +1,336 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HeapSort",
+            "request": "launch",
+            "mainClass": "implementation.HeapSort",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Heap",
+            "request": "launch",
+            "mainClass": "implementation.Heap",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "implementation.Graph",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Trie",
+            "request": "launch",
+            "mainClass": "implementation.Trie",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Bst",
+            "request": "launch",
+            "mainClass": "implementation.Bst",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "GraphAdLL",
+            "request": "launch",
+            "mainClass": "GraphAdLL",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "GraphAdMatrix",
+            "request": "launch",
+            "mainClass": "GraphAdMatrix",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "GraphBFS",
+            "request": "launch",
+            "mainClass": "GraphBFS",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "GraphDFS",
+            "request": "launch",
+            "mainClass": "GraphDFS",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "HeapSort",
+            "request": "launch",
+            "mainClass": "HeapSort",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BST",
+            "request": "launch",
+            "mainClass": "bst.BST",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BFS",
+            "request": "launch",
+            "mainClass": "graphcode.BFS",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Classroom",
+            "request": "launch",
+            "mainClass": "graphcode.Classroom",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Graph",
+            "request": "launch",
+            "mainClass": "graphcode.Graph",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Graph2",
+            "request": "launch",
+            "mainClass": "graphcode.Graph2",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Graph3",
+            "request": "launch",
+            "mainClass": "graphcode.Graph3",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Graph5",
+            "request": "launch",
+            "mainClass": "graphcode.Graph5",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Heap",
+            "request": "launch",
+            "mainClass": "heap.Heap",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "HeapSort(1)",
+            "request": "launch",
+            "mainClass": "heap.HeapSort",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "MaxHeapCode",
+            "request": "launch",
+            "mainClass": "heap.MaxHeapCode",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "MinHeap",
+            "request": "launch",
+            "mainClass": "heap.MinHeap",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "MinHeapCode",
+            "request": "launch",
+            "mainClass": "heap.MinHeapCode",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "MaxHeapSort",
+            "request": "launch",
+            "mainClass": "heap.heapsortworkout.MaxHeapSort",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "MinHeapSort",
+            "request": "launch",
+            "mainClass": "heap.heapsortworkout.MinHeapSort",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Bt",
+            "request": "launch",
+            "mainClass": "implementation.Bt",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeTravel",
+            "request": "launch",
+            "mainClass": "programizarticle.BinaryTreeTravel",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeComplete",
+            "request": "launch",
+            "mainClass": "programizarticle.binarytree.BinaryTreeComplete",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BinarySearchTree",
+            "request": "launch",
+            "mainClass": "programizarticle.bst.BinarySearchTree",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Bst",
+            "request": "launch",
+            "mainClass": "revise.Bst",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Bt(1)",
+            "request": "launch",
+            "mainClass": "revise.Bt",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Bt1",
+            "request": "launch",
+            "mainClass": "revise.Bt1",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Graph(1)",
+            "request": "launch",
+            "mainClass": "revise.Graph",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Heap(1)",
+            "request": "launch",
+            "mainClass": "revise.Heap",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Trie",
+            "request": "launch",
+            "mainClass": "revise.Trie",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BST2",
+            "request": "launch",
+            "mainClass": "rough.BST2",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BSTcode",
+            "request": "launch",
+            "mainClass": "rough.BSTcode",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BT",
+            "request": "launch",
+            "mainClass": "rough.BT",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BT2",
+            "request": "launch",
+            "mainClass": "rough.BT2",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "Graph(2)",
+            "request": "launch",
+            "mainClass": "rough.Graph",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "GraphCode",
+            "request": "launch",
+            "mainClass": "rough.GraphCode",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "TrieCode",
+            "request": "launch",
+            "mainClass": "rough.TrieCode",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BST(1)",
+            "request": "launch",
+            "mainClass": "tree.BST",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BTree$BinaryTree",
+            "request": "launch",
+            "mainClass": "tree.BTree$BinaryTree",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTree",
+            "request": "launch",
+            "mainClass": "tree.BinaryTree",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "BinaryTreeYt",
+            "request": "launch",
+            "mainClass": "tree.BinaryTreeYt",
+            "projectName": "weekthree_c0e24f1"
+        },
+        {
+            "type": "java",
+            "name": "trieLearning",
+            "request": "launch",
+            "mainClass": "trie.trieLearning",
+            "projectName": "weekthree_c0e24f1"
+        }
+    ]
+}

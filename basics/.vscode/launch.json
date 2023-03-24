@@ -1,0 +1,357 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Sup",
+            "request": "launch",
+            "mainClass": "acessMd2.Sup",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch sup",
+            "request": "launch",
+            "mainClass": "acessMd2.sup",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "acessMd2.Test",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainO",
+            "request": "launch",
+            "mainClass": "practice.arr.MainO",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainS",
+            "request": "launch",
+            "mainClass": "Test.Polymorphism.MainS",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Test.Main",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Best",
+            "request": "launch",
+            "mainClass": "Test.Best",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch BestOne",
+            "request": "launch",
+            "mainClass": "Test.BestOne",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BubbleSort",
+            "request": "launch",
+            "mainClass": "BubbleSort",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "CLL.Main",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircularMain",
+            "request": "launch",
+            "mainClass": "CircularQ.CircularMain",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Cycle",
+            "request": "launch",
+            "mainClass": "Cycle",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(1)",
+            "request": "launch",
+            "mainClass": "DLL.Main",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch LLmain",
+            "request": "launch",
+            "mainClass": "LL.LLmain",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch MainS",
+            "request": "launch",
+            "mainClass": "LnkLsT.MainS",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main(2)",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueueMain",
+            "request": "launch",
+            "mainClass": "QueueMain",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInRange",
+            "request": "launch",
+            "mainClass": "SearchInRange",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Box",
+            "request": "launch",
+            "mainClass": "Test.Box",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch OneInstance",
+            "request": "launch",
+            "mainClass": "Test.OneInstance",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch Statc",
+            "request": "launch",
+            "mainClass": "Test.Statc",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch StaticLearn",
+            "request": "launch",
+            "mainClass": "Test.StaticLearn",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch addToNumbers",
+            "request": "launch",
+            "mainClass": "addToNumbers",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch binarySearcheRecursion",
+            "request": "launch",
+            "mainClass": "binarySearcheRecursion",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch ceiling",
+            "request": "launch",
+            "mainClass": "ceiling",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch currencyToUSD",
+            "request": "launch",
+            "mainClass": "currencyToUSD",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch evenDigits",
+            "request": "launch",
+            "mainClass": "evenDigits",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch fiboo",
+            "request": "launch",
+            "mainClass": "fiboo",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch findWealth",
+            "request": "launch",
+            "mainClass": "findWealth",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch floor",
+            "request": "launch",
+            "mainClass": "floor",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch greeting",
+            "request": "launch",
+            "mainClass": "greeting",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch insertion",
+            "request": "launch",
+            "mainClass": "insertion",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch largestNum",
+            "request": "launch",
+            "mainClass": "largestNum",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch main",
+            "request": "launch",
+            "mainClass": "main",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch max",
+            "request": "launch",
+            "mainClass": "max",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch minimumNum",
+            "request": "launch",
+            "mainClass": "minimumNum",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch palindrome",
+            "request": "launch",
+            "mainClass": "palindrome",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch GfG",
+            "request": "launch",
+            "mainClass": "practice.GfG",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch insertAlphabets",
+            "request": "launch",
+            "mainClass": "practice.insertAlphabets",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch temp",
+            "request": "launch",
+            "mainClass": "practice.temp",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch temp2",
+            "request": "launch",
+            "mainClass": "practice.temp2",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch selectionSort",
+            "request": "launch",
+            "mainClass": "selectionSort",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch solution",
+            "request": "launch",
+            "mainClass": "solution",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch stringSearch",
+            "request": "launch",
+            "mainClass": "stringSearch",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumOfdigits",
+            "request": "launch",
+            "mainClass": "sumOfdigits",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch temp(1)",
+            "request": "launch",
+            "mainClass": "temp",
+            "projectName": "basics_d42f389e"
+        },
+        {
+            "type": "java",
+            "name": "Launch twodArray",
+            "request": "launch",
+            "mainClass": "twodArray",
+            "projectName": "basics_d42f389e"
+        }
+    ]
+}
