@@ -8,3 +8,8 @@ function reverse(str) {
 
 let str = reverse('Ajay');
 
+
+/* 
+function reverse(str){
+  return str.split('').reverse().join('')
+} */
