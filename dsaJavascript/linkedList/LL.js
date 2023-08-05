@@ -55,8 +55,8 @@ class LinkedList {
           current.next = current.next.next;
         } else {
           current.next = null;
-          return;
         }
+        return;
       }
 
       current = current.next;
