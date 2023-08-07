@@ -14,7 +14,6 @@ function partition(arr, low, high) {
   for (let i = low; i <= high; i++) {
     if (pivotValue > arr[i]) {
       index++;
-
       if (i !== index) [arr[i], arr[index]] = [arr[index], arr[i]];
     }
   }
