@@ -82,6 +82,46 @@ class BinaryTree {
     this.preOrderTraversal(node.right);
   }
 
+  levelOrderTraversal(node) {
+    if (!node) return;
+
+    const queue = [];
+    queue.push(node);
+
+    while (queue.length > 0) {
+      const current = queue.shift();
+      console.log(current.data);
+
+      if (current.left) {
+        queue.push(current.left);
+      }
+      if (current.right) {
+        queue.push(current.right);
+      }
+    }
+  }
+
+  isBST(node) {
+    return this._isBSTCheck(
+      node,
+      Number.MIN_SAFE_INTEGER,
+      Number.MAX_SAFE_INTEGER
+    );
+  }
+
+  _isBSTCheck(node, min, max) {
+    if (!node) return true;
+
+    if (node.data <= min || node.data >= max) {
+      return false;
+    }
+
+    return (
+      this._isBSTCheck(node.left, min, node.data) &&
+      this._isBSTCheck(node.right, node.data, max)
+    );
+  }
+
   delete(data) {
     this.root = this._deleteNode(this.root, data);
   }
@@ -131,3 +171,9 @@ console.log('..................');
 bt.delete(2);
 console.log('..................');
 bt.preOrderTraversal(bt.root);
+
+console.log('..................');
+bt.levelOrderTraversal(bt.root);
+
+console.log('..................');
+console.log(bt.isBST(bt.root));
