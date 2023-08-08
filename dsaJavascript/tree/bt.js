@@ -166,7 +166,7 @@ bt.insert(12);
 bt.insert(1);
 bt.insert(39);
 
-bt.preOrderTraversal(bt.root);
+bt.inOrderTraversal(bt.root);
 console.log('..................');
 bt.delete(2);
 console.log('..................');
