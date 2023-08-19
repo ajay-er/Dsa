@@ -4,23 +4,23 @@ function swap(arr, i, j) {
   arr[j] = temp;
 }
 
-function selectionSort(arr) {
+function selection2(arr) {
   for (let i = 0; i < arr.length - 1; i++) {
-    let minIndex = i;
+    let min = i;
     for (let j = i + 1; j < arr.length; j++) {
-      if (arr[j] < arr[minIndex]) {
-        minIndex = j;
+      if (arr[j] < arr[min]) {
+        min = j;
       }
     }
 
-    if (minIndex !== i) {
-      swap(arr, i, minIndex);
+    if (min !== i) {
+      swap(arr, i, min);
     }
   }
 }
 
-let arr = [2, 35, 9, 1, 23];
+let arr = [2, 35, 9, 1, 23,29,12,11,999];
 
-selectionSort(arr);
+selection2(arr);
 
 console.log(arr);
