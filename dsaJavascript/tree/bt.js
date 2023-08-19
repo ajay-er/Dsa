@@ -141,6 +141,7 @@ class BinaryTree {
       if (!node.right) {
         return node.left;
       }
+      
       const inOrderSuccessor = this._findMinNode(node.right);
       node.data = inOrderSuccessor.data;
       node.right = this._deleteNode(node.right, inOrderSuccessor.data);
