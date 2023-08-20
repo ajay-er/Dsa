@@ -24,33 +24,43 @@ class Trie {
   search(word) {
     let node = this.root;
     for (const char of word) {
-      if (!node.children[char]) {
-        return false;
-      }
+      if (!node.children[char]) return false;
+
       node = node.children[char];
     }
-
     return node.isEndOfWord;
   }
 
-  startsWith(prefix) {
+  findWordsWithPrefix(prefix) {
     let node = this.root;
+
     for (const char of prefix) {
-      if (!node.children[char]) {
-        return false;
-      }
+      if (!node.children[char]) return [];
       node = node.children[char];
     }
-    return true;
+
+    let words = [];
+    this.#collectWords(node, prefix, words);
+    return words;
+  }
+
+  #collectWords(node, currentWord, words) {
+    if (node.isEndOfWord) {
+      words.push(currentWord);
+    }
+
+    for (const char in node.children) {
+      this.#collectWords(node.children[char], currentWord + char, words);
+    }
   }
 }
 
-const t = new Trie();
+let trie = new Trie();
 
-t.insert('Ajay');
-t.insert('Ajmal');
-t.insert('aju');
-t.insert('apple');
+trie.insert('Ajay');
+trie.insert('Ajmal');
+trie.insert('Aju')
+trie.insert('Ajal')
 
-console.log(t.search('aju'));
-console.log(t.startsWith('aj'));
+
+console.log(trie.findWordsWithPrefix('Aj'));
