@@ -59,6 +59,7 @@ class LL {
   }
 
   print() {
+    console.log('------');
     let current = this.head;
     while (current) {
       console.log(current.data);
@@ -67,12 +68,55 @@ class LL {
   }
 }
 
-let l = new LL();
+let l1 = new LL();
 
-l.append(23);
-l.append(2);
-l.append(1);
-l.append(13);
-l.append(99);
-l.delete(23);
-l.print();
+let l2 = new LL();
+
+l1.append(9);
+l1.append(6);
+l1.append(1);
+
+l2.append(5);
+l2.append(3);
+l2.append(7);
+l1.print();
+l2.print();
+/* 
+var addTwoNumbers = function (l1, l2) {
+  let current1 = l1.head;
+  let current2 = l2.head;
+  let arrWord1 = [];
+  let arrWord2 = [];
+
+  while (current1) {
+    arrWord1.push(current1.data);
+
+    current1 = current1.next;
+  }
+
+  while (current2) {
+    arrWord2.push(current2.data);
+
+    current2 = current2.next;
+  }
+
+  let num1 = +arrWord1.reverse().join('');
+  let num2 = +arrWord2.reverse().join('');
+
+  let sum = num1 + num2;
+
+  let latestLL = sum.toString().split('');
+  let node;
+  for (const val of latestLL) {
+    if (!node) {
+      node = new Node(+val);
+    } else {
+      node = new Node(+val, node);
+      console.log(node);
+    }
+  }
+  console.log(node);
+};
+
+addTwoNumbers(l1, l2);
+ */
