@@ -49,4 +49,51 @@ class Tree {
       return this.#searchRecursively(data, node.right);
     }
   }
+
+  inorder() {
+    this.#inorderTraversal(this.root);
+  }
+
+  #inorderTraversal(node) {
+    if (!node) {
+      return;
+    }
+
+    this.#inorderTraversal(node.left);
+    console.log(node.data);
+    this.#inorderTraversal(node.right);
+  }
+
+  preorder() {
+    this.#preorderTraversal(this.root);
+  }
+
+  #preorderTraversal(node) {
+    if (!node) {
+      return;
+    }
+
+    console.log(node.data);
+    this.#preorderTraversal(node.left);
+    this.#preorderTraversal(node.right);
+  }
+
+  postorder() {
+    this.#postorderTraversal(this.root);
+  }
+
+  #postorderTraversal(node) {
+    this.#postorderTraversal(node.left);
+    this.#postorderTraversal(node.right);
+    console.log(node.data);
+  }
 }
+
+let t = new Tree();
+
+t.insert(3);
+t.insert(9);
+t.insert(7);
+t.insert(2);
+t.insert(11);
+t.inorder();
