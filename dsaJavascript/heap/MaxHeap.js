@@ -5,24 +5,22 @@ class MinHeap {
 
   insert(value) {
     this.heap.push(value);
-    this.bubbleup(this.heap.length - 1);
+    this.bubbleUp(this.heap.length - 1);
   }
 
-  remove() {
+  extractMin() {
     if (this.heap.length === 0) return null;
-
+  
     if (this.heap.length === 1) return this.heap.pop();
-
+  
     const minValue = this.heap[0];
-
     this.heap[0] = this.heap.pop();
-
     this.bubbleDown(0);
-
+  
     return minValue;
   }
 
-  bubbleup(index) {
+  bubbleUp(index) {
     const parentIndex = Math.floor((index - 1) / 2);
 
     if (index > 0 && this.heap[index] < this.heap[parentIndex]) {
@@ -30,10 +28,10 @@ class MinHeap {
         this.heap[parentIndex],
         this.heap[index],
       ];
-      this.bubbleup(parentIndex);
+      this.bubbleUp(parentIndex);
     }
   }
-
+    
   bubbleDown(index) {
     const leftIdx = 2 * index + 1;
     const rightIdx = 2 * index + 2;
@@ -63,10 +61,24 @@ class MinHeap {
     }
   }
 
-  build(arr) {
+  buildHeap(arr) {
     this.heap = [...arr];
     for (let i = Math.floor(this.heap.length / 2); i >= 0; i--) {
       this.bubbleDown(i);
     }
   }
 }
+
+
+const minHeap = new MinHeap();
+
+minHeap.insert(4);
+minHeap.insert(2);
+minHeap.insert(8);
+minHeap.insert(5);
+minHeap.insert(1);
+
+const arr = [10, 7, 3, 6, 2, 4];
+minHeap.buildHeap(arr);
+
+console.log(minHeap);
