@@ -66,13 +66,13 @@ class LinkedList {
   print() {
     let current = this.head;
 
-      let str = ''
+    let str = '';
     while (current) {
-        str =   str + '--->' + current.data
+      str = str + '--->' + current.data;
       current = current.next;
-      }
-      
-      console.log(str);
+    }
+
+    console.log(str);
   }
 }
 
@@ -81,7 +81,7 @@ let list = new LinkedList();
 list.append(12);
 list.append(23);
 list.append(3);
-list.prepend(1)
-list.delete(2)
+list.prepend(1);
+list.delete(2);
 
 list.print();
