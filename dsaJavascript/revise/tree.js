@@ -148,6 +148,29 @@ class Tree {
       this.#BSTChecker(node.right, node.value, max)
     );
   }
+
+  findClosest(value) {
+    return this.#findClosestNode(this.root, value);
+  }
+
+  #findClosestNode(node, targetValue, closest = null) {
+    if (!node) return closest;
+
+    if (
+      !closest ||
+      Math.abs(node.value - targetValue) < Math.abs(closest.value - targetValue)
+    ) {
+      closest = node;
+    }
+
+    if (targetValue < node.value) {
+      return this.#findClosestNode(node.left, targetValue, closest);
+    } else if (targetValue > node.value) {
+      return this.#findClosestNode(node.right, targetValue, closest);
+    } else {
+      return closest;
+    }
+  }
 }
 
 let bt = new Tree();
@@ -156,8 +179,13 @@ bt.insert(2);
 bt.insert(94);
 bt.insert(90);
 bt.insert(12);
+bt.insert(15);
 bt.insert(1);
 bt.insert(39);
 
 bt.levelOrder();
 console.log(bt.isBST());
+
+const targetValue = 14;
+const closestNode = bt.findClosest(targetValue);
+console.log(`Closest node to ${targetValue}: ${closestNode.value}`);
