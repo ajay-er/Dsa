@@ -76,12 +76,53 @@ class LinkedList {
   }
 }
 
-let list = new LinkedList();
+function mergeLinkedLists(list1, list2) {
+  if (!list1.head) {
+    return list2;
+  }
 
-list.append(12);
-list.append(23);
-list.append(3);
-list.prepend(1);
-list.delete(2);
+  if (!list2.head) {
+    return list1;
+  }
 
-list.print();
+  const mergedList = new LinkedList();
+
+  let current1 = list1.head;
+  let current2 = list2.head;
+
+  while (current1 || current2) {
+    if (current1 && current2) {
+      if (current1.data <= current2.data) {
+        mergedList.append(current1.data);
+        current1 = current1.next;
+      } else {
+        mergedList.append(current2.data);
+        current2 = current2.next;
+      }
+    } else if (current1) {
+      mergedList.append(current1.data);
+      current1 = current1.next;
+    } else {
+      mergedList.append(current2.data);
+      current2 = current2.next;
+    }
+  }
+
+  return mergedList;
+}
+
+let l1 = new LinkedList();
+let l2 = new LinkedList();
+
+l2.append(39);
+l2.append(13);
+l2.append(83);
+l2.prepend(8);
+
+l1.append(12);
+l1.append(23);
+l1.append(3);
+l1.prepend(1);
+
+const merge = mergeLinkedLists(l1, l2);
+merge.print()
